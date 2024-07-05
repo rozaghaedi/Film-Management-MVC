@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+
+@keyframes moveSlideShowComment{
+    100%{
+        transform: translateX(-500%);
+    }
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.banner_navbar {
+	background: transparent !important;
+	backdrop-filter: blur(3px) !important;
+    background: rgba(0, 8, 20, .5) !important;
+    position: fixed;
+    width: 99vw;
+    display: flex;
+    z-index: 1000000;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.banner {
+	height: 30rem;
+	background-size: cover;
+    background-image: url(../Images/img11.jpg);
+    background-position: center center;
+    position: relative;
+}
+.banner h1{
+	position: absolute;
+	top: 200px;
+	color: white;
+	left: 100px;
+	font-family: "Satisfy", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 80px;
+  	transform: rotate(-10deg);
+}
+.search-bar {
+	position: absolute;
+	bottom: 0;
+}
+.bg-container {
+	background-image: url(../Images/img11.jpg);
+	background-position: center center;
+	background-size: fill;
+	width: 100%;
+}
+.form-container {
+	height: 100vh !important;
+}
+.form-component {
+	background: transparent !important;
+	backdrop-filter: blur(3px) !important;
+    background: rgba(0, 8, 20, .5) !important;
+	padding: 30px;
+	border-radius: 20px;
+}
+.fixed-top-center {
+     position: absolute;
+     top: 10%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 1000000; /* Adjust as needed */
+ }
