@@ -1,8 +1,8 @@
 # 🎬 Film Management System
 
-**A Java Enterprise web application for managing film databases with REST API capabilities**
+**A Java Enterprise MVC web application for managing film databases with web interface and API endpoints**
 
-A comprehensive film management system built with Java, featuring both web interface and RESTful API endpoints for complete CRUD operations on film data. The application includes search functionality, JSON/XML serialization, and a responsive Bootstrap-powered frontend.
+A comprehensive film management system built with Java EE using MVC architecture, featuring a responsive web interface and API capabilities for complete CRUD operations on film data. The application includes search functionality, dynamic forms, and a responsive Bootstrap-powered frontend.
 
 ## 🌟 Features
 
