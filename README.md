@@ -33,7 +33,7 @@ A comprehensive film management system built with Java, featuring both web inter
 ## 🛠️ Built With
 
 - **Backend:**
-  - Java Enterprise Edition (Java EE)
+  - Java Enterprise Edition 
   - Java Servlets & JSP
   - MySQL Database
   - JAXB for XML/JSON serialization
@@ -57,24 +57,24 @@ A comprehensive film management system built with Java, featuring both web inter
 ```
 src/
 ├── controller/
-│   ├── HomeServlet.java         # Main page controller
-│   ├── InsertServlet.java       # Add film functionality
-│   ├── UpdateServlet.java       # Update film functionality
-│   ├── DeleteServlet.java       # Delete film functionality
-│   ├── SearchServlet.java       # Search functionality
-│   └── FilmApiController.java   # REST API endpoints
+│   ├── HomeServlet.java          Main page controller
+│   ├── InsertServlet.java       Add film functionality
+│   ├── UpdateServlet.java        Update film functionality
+│   ├── DeleteServlet.java        Delete film functionality
+│   ├── SearchServlet.java        Search functionality
+│   └── FilmApiController.java    REST API endpoints
 ├── model/
-│   ├── Film.java               # Film entity model
-│   └── FilmBuilder.java        # Builder pattern implementation
+│   ├── Film.java                Film entity model
+│   └── FilmBuilder.java         Builder pattern implementation
 ├── database/
-│   └── FilmDAO.java            # Data access layer
+│   └── FilmDAO.java             Data access layer
 ├── FilmService/
-│   └── FilmService.java        # Business logic layer
+│   └── FilmService.java         Business logic layer
 └── webapp/
     ├── css/
-    │   ├── bootstrap.min.css   # Bootstrap framework
-    │   └── style.css           # Custom styles
-    └── [JSP pages]             # Web interface templates
+    │   ├── bootstrap.min.css    Bootstrap framework
+    │   └── style.css            Custom styles
+    └── [JSP pages]             Web interface templates
 ```
 
 ## 🚀 Getting Started
